@@ -48,8 +48,7 @@ For our analysis, we used the following steps:
 
 1. 1) **Data import and cleaning** : The data was sourced from Kaggle (also available in the Lending Club website) and comprised of the 2016-2017 Fiscal Year loan data for Lending Club. Then we imported the required columns and used functions to convert the column data into the required datatype. For example, employee length was converted from string to numeric using &#39;string.split&#39; function. We also added a column to compute the revenue per customer.
 2. 2) **Merging multiple data files** : Next we aggregated another dataset containing zip code details and included the population segregated by zip code to merge the two datasets together.
-3. 3) **Descriptive Statistics** :
-
+3. 3) **Descriptive Statistics** :<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/Descriptive%20Statistics.png"/>
 From the above table, we see that the mean interest rate that we are offering is 13.2% in 2016 and 2017. The average loan size that our bank offers is $14.7k. The median employment length of our customers was 6 years which had a median annual income of $95k. Also, our bank only offers loans for tenures of 3 and 5 years as evidenced from the table above.
 
 1. 4) **Categorization based on loan types for following measures** :
@@ -86,7 +85,9 @@ What would happen to the time it takes for your code to run if the size of the d
 
 **Tables and graphs summarizing results**
 
-1. 1)                   _Figure 1                                         Figure 2_
+1. 1)
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/Defaulters%20vs%20Loan%20Purpose.png"/>                   _Figure 1                                         
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/Revenue%20Vs%20Loan%20Purpose.png"/>Figure 2_
 
 _                                       _
 
@@ -100,21 +101,24 @@ The maximum revenue is generated from &quot;Debt consolidation&quot; category.
 
 It is interesting to note that the loan categories that have the highest revenue are also those that have the highest defaults.
 
-1. 2)_                Figure 3_
+1. 2)_               
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/Revenue%20Per%20Loan%20Vs%20loan%20Purpose.png"/> Figure 3_
 
-1. 3)                 _Figure 4                                                Figure 5_
+1. 3)               
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/Statewise%20No%20of%20Defaulters%20(Bokeh).png"/>  _Figure 4                                               
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/State%20Wise%20Customers%20(Bokeh).png"/> Figure 5_
 
 Amongst loan categories with respect to purpose of loan, revenue generated per loan is maximum for house purchases followed by loans taken by loans for small businesses. The lowest revenue generated per loan is for vacation purpose        _                                               _
 
 The Bokeh graphs show the State-wise Population, Customer base as well as the Number of Defaulters and Probability of Default.
 
-1. 4)_                 Figure 6_
+1. 4)_               
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/Expected%20Loss%20Vs%20Purpose.png"/>  Figure 6_
 
-1. 5)                                        _Figure 7_
+1. 5)                                    
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/Logit%20Regression%20Results.png"/>    _Figure 7_
 
 
-
-1. 6)_                                        _ _Figure 8_
 
 
 
@@ -123,5 +127,11 @@ Amongst loan categories, expected loss is maximum for house purchases followed b
 **Time Analysis:**
 
 With increase in number of Observation Data, time taken by the &#39;dataread&#39; function increases linearly whereas &#39;Linear Regression&#39; function is very quick to show any variation on the graph.
-
 For the &#39;Logistic Regression&#39; function, with the increase in number of observations, the time graph follows Log(n), whereas with increase in number of independent variables, the time increases linearly.
+
+
+
+
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/No%20of%20Observations%20Vs%20Run%20Time%20.png"/> 
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/No%20of%20Observations%20Vs%20Run%20Time%20-%20Logistic%20Regression%20.png"/> 
+<img src="https://github.com/sushil1792/LendingClub_loan_default_prediction/blob/master/No%20of%20Independent%20Variables%20Vs%20Run%20TIme%20-%20Logistic%20Regression.png"/> 
