@@ -4,7 +4,7 @@
 
 **Problem statement:**
 
-This paper analyzes the relationship between the probability of default of a loan and the customer demographics and the market penetration of Lending Club within the United States, which is a peer to peer lender headquartered in San Francisco, California. The analysis is performed using the 2016-2017 fiscal year data from Lending Club.
+This study analyzes the relationship between the probability of default of a loan and the customer demographics and the market penetration of Lending Club within the United States, which is a peer to peer lender headquartered in San Francisco, California. The analysis is performed using the 2016-2017 fiscal year data from Lending Club.
 
 **Importance of problem statement:**
 
